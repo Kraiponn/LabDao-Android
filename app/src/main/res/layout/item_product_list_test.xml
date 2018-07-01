@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="19dp"
+    android:background="@drawable/recycler_view_state">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#fbfdfb">
+            <TextView
+                android:id="@+id/text_pro_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Product No."
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#51f505"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="right|center"
+                android:src="@drawable/ic_3dots"
+                android:scaleType="centerCrop"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/image_product"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/bg"
+                android:scaleType="centerCrop"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="bottom"
+                android:background="#80000000"
+                android:padding="10dp">
+                <TextView
+                    android:id="@+id/text_pro_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Product Name"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+                <TextView
+                    android:id="@+id/text_pro_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Details"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+            </LinearLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/recycler_view_state"/>
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="#fbfdfb">
+                <TextView
+                    android:id="@+id/text_pro_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Product No."
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="#51f505"/>
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="right|center"
+                    android:src="@drawable/ic_3dots"
+                    android:scaleType="centerCrop"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/image_product"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/bg"
+                    android:scaleType="centerCrop"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="bottom"
+                    android:background="#80000000"
+                    android:padding="10dp">
+                    <TextView
+                        android:id="@+id/text_pro_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:text="Product Name"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#fff"/>
+                    <TextView
+                        android:id="@+id/text_pro_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:text="Details"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="#fff"/>
+                </LinearLayout>
+            </FrameLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/recycler_view_state"/>
+    </RelativeLayout>-->
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Our Profile">
+        <menu>
+            <item
+                android:id="@+id/menu_profile"
+                android:icon="@drawable/ic_user_group"
+                android:title="User"/>
+            <item
+                android:id="@+id/menu_notification"
+                android:icon="@drawable/ic_notification"
+                android:title="Notification"/>
+            <item
+                android:id="@+id/menu_"
+                android:icon="@drawable/ic_android"
+                android:title="System"/>
+        </menu>
+    </item>
+    <item android:title="Interface">
+        <menu>
+            <item
+                android:id="@+id/menu_products"
+                android:icon="@drawable/ic_shopping"
+                android:title="Our Products"/>
+            <item
+                android:id="@+id/menu_login"
+                android:icon="@drawable/ic_lock"
+                android:title="Security"/>
+            <item
+                android:id="@+id/menu_bluetooth"
+                android:icon="@drawable/ic_bluetooth"
+                android:title="Bluetooth"/>
+            <item
+                android:id="@+id/menu_finger"
+                android:icon="@drawable/ic_finger"
+                android:title="Finger Scanner"/>
+        </menu>
+    </item>
+</menu>

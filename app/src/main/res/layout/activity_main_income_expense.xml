@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfdfdf"
+    tools:context=".activity.MainIncomeExpenseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingBottom="10dp">
+        <ImageView
+            android:id="@+id/button_scan"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/document_dollar"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="บันทึก\n รายรับ-รายจ่าย"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+        <Button
+            android:id="@+id/button_new_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/state_button_red"
+            android:textColor="@drawable/text_state"
+            android:text="รายการทที่บันทึกไว้"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <Button
+            android:id="@+id/button_show_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/state_button_red"
+            android:textColor="@drawable/text_state"
+            android:drawableLeft="@drawable/ic_edit2"
+            android:drawablePadding="10dp"
+            android:text="บันทึกรายการใหม่"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <!--<Button
+        android:id="@+id/button_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="7dp"
+        android:layout_margin="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Start Scan"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"/>-->
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ksn.kraiponn.labdao.activity.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_setting"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_second_fragment"
+        android:title="To Second Fragment "
+        android:icon="@drawable/ic_bluetooth"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_scanner"
+        android:title="To Scan BarCode "
+        android:icon="@drawable/ic_finger"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_custom_spinner"
+        android:title="Custom Spinner "
+        android:icon="@drawable/ic_shopping"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="text_white_normal">#ffffff</color>
+    <color name="text_white_active">#dcdbdb</color>
+    <color name="overlay_color">#00000000</color>
+    <color name="active">#80000000</color>
+    <color name="button_red_normal">#FF4081</color>
+    <color name="button_red_press">#80000000</color>
+    <color name="item_state_normal">#ffffff</color>
+    <color name="item_state_press">#80000000</color>
+</resources>
