@@ -125,7 +125,7 @@ public class IncomeExpenseActivity extends AppCompatActivity {
         String[] args = {m + "", y + ""};
         Cursor cursor = db.rawQuery(sql, args);
         if (cursor == null) {
-            showToast("Income_Expense Table is Emtry");
+            showToast("Income_Expense Table is Emtrys");
             return;
         }
 
