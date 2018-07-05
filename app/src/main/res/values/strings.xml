@@ -7,4 +7,5 @@
     <string name="title_activity_income_expense">รายละเอียด รายการ</string>
     <string name="title_activity_custom_spinner">CustomSpinnerActivity</string>
     <string name="title_activity_input_ic_exp_data">บันทึกรายรับ-รายจ่าย</string>
+    <string name="title_activity_volley">VolleyActivity</string>
 </resources>
